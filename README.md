@@ -14,7 +14,7 @@ The memory side has a single slider of output "cards." Portions of the sliders s
 
 The CARDIAC manual is 50+ pages divided into 16 sections describing the basics of computers from a late 1960s perspective. The first six sections cover things like flow charts, instructions, data, addresses, and the stored program concept. Sections 7–12 discuss the CARDIAC and some basic programming techniques including loops and multiplication. Sections 13 and 14 discuss the techniques for bootstrapping and subroutines, both of which we elaborate on below. Section 15 focuses on the development of a program to play NIM. Finally, Section 16 discusses assemblers and compilers. Although there is some duplication of information, the material on this page is not intended to replace the manual. Rather, the material here expands on that in the manual, particularly from the point of view of one who is already familiar with the most basic concepts of computers and programming.
 
-![](./imp/cardiac.jpg)
+![Cardiac](./img/cardiac.jpg)
 
 ## Cardiac architecture
 
@@ -25,7 +25,7 @@ The CARDIAC has a grand total of 100 memory locations identified by the two-digi
 
 The CARDIAC CPU is a single-accumulator single-address machine. Thus each instruction operates optionally on a single memory location and the accumulator. For example, the ADD instruction reads the data in one memory location, adds it to the current value of the accumulator and stores the result back into the accumulator. The ALU supports addition, subtraction, and decimal shifting. CARDIAC's CPU architecture is illustrated in the following figure: 
 
-![](./img/cardiac_arch.png)
+![Cardiac architecture](./img/cardiac_arch.png)
 
 The CARDIAC accumulator holds a signed 4-digit number, which seems odd given that everything else is oriented around 3-digit numbers. The manual includes the statement:
 
