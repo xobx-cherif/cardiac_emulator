@@ -1,5 +1,9 @@
-# cardiac_emulator
+# Cardiac emulator
 ## Description
+
+CARDIAC stands for CARDboard Illustrative Aid to Computation)
+This is an emulator that works exactly more or less! like the CARDIAC "Computer".
+The implementation is inspired from the cardiac manual architecture and implemented in java!
 
 ## Cardiac core
 
@@ -88,6 +92,11 @@ deckname is the name of the file containing the instructions to be executed by t
 Two deck files are provided in this repository:
 * **deck.txt**: a program that counbts from 1 to 10.
 * **deck1.txt**: a program that multiply two integers (23 * 5).
+
+## Ressources
+
+* https://www.cs.drexel.edu/~bls96/museum/cardiac.html
+* https://www.cs.drexel.edu/~bls96/museum/CARDIAC_manual.pdf
 
 
 
