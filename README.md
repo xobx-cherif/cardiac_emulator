@@ -63,3 +63,32 @@ In the cases of the INP and STO instructions, a is the destination address for t
 
 ![Cardiac architecture](./img/encoding1.png)
 
+## Usage
+
+make sure to have openjdk version "1.8.0_171" or newer.
+
+Compilation:
+```bash
+make
+```
+
+Cleaning:
+
+```bash
+make clean
+```
+
+Running the emulator:
+
+```bash
+make run DECK=<deckname.txt>
+```
+
+deckname is the name of the file containing the instructions to be executed by the core.
+Two deck files are provided in this repository:
+* **deck.txt**: a program that counbts from 1 to 10.
+* **deck1.txt**: a program that multiply two integers (23 * 5).
+
+
+
+
