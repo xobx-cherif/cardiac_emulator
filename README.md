@@ -2,9 +2,7 @@
 ## Description
 
 CARDIAC stands for CARDboard Illustrative Aid to Computation.
-
 This is an emulator that works exactly more or less! like the CARDIAC "Computer".
-
 The implementation was inspired from the cardiac manual architecture and implemented in java!
 
 ## Cardiac core
